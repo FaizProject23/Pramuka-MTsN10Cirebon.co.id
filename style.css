@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font: 15px/18px arial,sans-serif;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+
+.container {
+  width: 325px;
+  margin: auto;
+  background: #f4f4f4;
+}
+
+.header {
+  padding: 20px;
+  background: #35424a;
+}
+
+.nama {
+  color: #f4f4f4;
+  font-size: 20px;
+}
+
+.sorotan-nama {
+  color: salmon;
+}
+
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.sidebar {
+  color: salmon; 
+  text-decoration: none;
+  margin-right: 6px;
+  padding: 3px;
+}
+
+.sidebar:hover {
+  background: salmon;
+  transition: 0.5s;
+  border-radius: 3px;
+  color: #f4f4f4;
+}
+
+.hero-image {
+  height: 150px;
+  background: url(img/showcase.jpg) center no-repeat;
+  background-size: cover;
+  /*background-position: 0 -180px;*/
+  border-top: 3px solid salmon;
+  border-bottom: 3px solid salmon;
+}
+
+.konten {
+  padding: 20px;
+}
+
+.img-1 {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 100px;
+  width: 150px;
+  background: url(img/logo_html.png) center no-repeat;
+  background-size: 150px;
+}
+
+.judul1, .konten1 {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.img-2 {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 150px;
+  width: 100px;
+  background: url(img/logo_css.png) center no-repeat;
+  background-size: 80px;
+}
+
+.img-3 {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 100px;
+  width: 150px;
+  background: url(img/logo_brush.png) center no-repeat;
+  background-size: 150px;
+}
+
+
+.footer {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  background: #35424a;
+  color: #f4f4f4;
+  border-top: 2px solid salmon;
+}
+
+p {
+  font-weight: bold;
+}
+
+.copyreg {
+  color: salmon;
+  text-decoration: none;
+}
